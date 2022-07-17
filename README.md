@@ -2,7 +2,7 @@
 Relação dos principais comandos do Git
 
 
-### 1. Git config = Configurar sua identidade de usuario 
+### 1. Git config = Configurar sua identidade de usuário 
     git config --global user.name "seu nome"
     git config --global user.email "seu email"
    
@@ -31,6 +31,13 @@ Relação dos principais comandos do Git
  ### 7. Git checkout = Pode ser utilizado para trocar de uma ramificação para outra
         git checkout <nome_do_brunch>
         
- ### 8. Git remote = Estabelece uma conexão entre seu repositório remoto       
+ ### 8. Git remote = Estabelece uma conexão entre seu repositório remoto
+        git remote add <nomecurto> <URL>
+        
+ ### 9. Git push = Serve para subir suas modificações para um repositório remoto conectado anteriormente com git remote
+        gitpush -u <nomecurto> <nome_do_brunch>
+        
+ ### 10. Git fetch = Irá receber todas as informações de commits, para avaliar, antes de aplicar essas alterações na sua versão local do repositório
+         git fetch
       
       
