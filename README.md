@@ -8,13 +8,13 @@ Relação dos principais comandos do Git
    
 #### Importante usar o mesmo nome e e-mail utilizado no GitHub 
 
-### 2. Git init = Criar repositorio 
+### 2. Git init = Criar repositório 
     git init nome do repositorio
    
-### 3. Git clone = Cria uma copia exata de um repositorio ja existente
-    git clone URL do seu projeto
+### 3. Git clone = Cria uma copia exata de um repositório ja existente
+    git clone <URL do seu projeto>
     
-### 4. Git add = Adiciona os arquivos especificados de código ao seu repositorio, sejam arquivos novos ou anteriores, que foram alterados
+### 4. Git add = Adiciona os arquivos especificados de código ao seu repositório, sejam arquivos novos ou anteriores, que foram alterados
     git add seu_arquivo (*adiciona arquivo em especifico ao repositorio*) 
     git add* (*adiciona todos os arquivos novos e/ou modificados ao repositorio*) 
     
@@ -25,8 +25,12 @@ Relação dos principais comandos do Git
       
  ### 6. Git branch = É um caminho independete de desenvolvimento, uma alternativa 
       git branch (*lista todas as ramificações*)
-      git branch <nome_do_branch>
+      git branch <nome_do_branch> (*cria um branch com o nome especificado*)
+      git branch d <nome_do_branch> (*deleta o brunch com o nome especificado*)
       
- ### 7.      
+ ### 7. Git checkout = Pode ser utilizado para trocar de uma ramificação para outra
+        git checkout <nome_do_brunch>
+        
+ ### 8. Git remote = Estabelece uma conexão entre seu repositório remoto       
       
       
