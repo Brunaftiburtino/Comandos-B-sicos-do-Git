@@ -25,5 +25,8 @@ Relação dos principais comandos do Git
       
  ### 6. Git branch = É um caminho independete de desenvolvimento, uma alternativa 
       git branch (*lista todas as ramificações*)
+      git branch <nome_do_branch>
+      
+ ### 7.      
       
       
