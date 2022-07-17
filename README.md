@@ -39,5 +39,13 @@ Relação dos principais comandos do Git
         
  ### 10. Git fetch = Irá receber todas as informações de commits, para avaliar, antes de aplicar essas alterações na sua versão local do repositório
          git fetch
+         
+ ### 11. Git pull = Baixa o conteúdo (não os metadados) do que foi alterado no repositório remoto para o seu repositório local e imediamente atualiza seu conteúdo para a última versão 
+         git pull <URL>
+         
+ ### 12. Git stash = Armazena temporariamente seus arquivos modificados em uma área chamaa stash ("esconderijo"), sem interagir com os outros arquivos até ser necessário 
+         git stash
+ #### Para listar todos os "esconderijos" usa-se: 
+         git stach list
       
       
